@@ -17,6 +17,8 @@ int main(){
         }
         if(p==0){
             printf("Prime");
+        }else{
+            print("")
         }
         }
     }
