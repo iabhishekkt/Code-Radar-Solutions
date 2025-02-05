@@ -5,7 +5,10 @@ int main(){
     scanf("%d",&a);
     if (a>!0){
         printf("False");
-    }else{
+    }else if(a==1){
+        printf("Fasle");
+    }
+    else{
         printf("True");
     }
 }
