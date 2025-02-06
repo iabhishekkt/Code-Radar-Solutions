@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-    int a(int b,c){
-        return num | (1<<c);
-    }
+int a(int b,c){
+    return num | (1<<c);
+}
 
 int main(){
     int d,e;
