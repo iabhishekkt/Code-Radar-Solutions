@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-    int setNthBit(int b,c){
+    int a(int b,c){
         return num | (1<<c);
     }
 
