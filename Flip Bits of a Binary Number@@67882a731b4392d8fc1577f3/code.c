@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    unsigned int n;
-    scanf("%u", &n);
+    int n;
+    scanf("%d", &n);
 
-    unsigned int flipped = ~n;
+    int flipped = ~n;
 
-    printf("%u\n", flipped);
+    printf("%d\n", flipped);
+
     return 0;
 }
