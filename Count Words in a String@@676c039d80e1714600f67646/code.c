@@ -21,7 +21,7 @@ int main() {
         }
     }
 
-    printf("Number of words: %d\n", count);
+    printf("%d\n", count);
 
     return 0;
 }
