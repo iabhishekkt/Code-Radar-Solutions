@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-int a(int b,c){
-    return num | (1<<c);
-}
+int main() {
+    int num, n;
+    scanf("%d %d", &num, &n);
 
-int main(){
-    int d,e;
-    scanf("%d %d",&d,&e);
-    print("%d", a(d,e));
+    num = num | (1 << n);
+
+    printf("%d\n", num);
+
+    return 0;
 }
